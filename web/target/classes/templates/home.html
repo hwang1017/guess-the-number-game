@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: headFragment}"></head>
+
+<body>
+    <div align="center">
+        <h1>Welcome to the number game!</h1>
+        <a th:href="@{__${T(learn.util.GameMappings).PLAY}__}"
+           th:text="Play"
+            href="play.html">
+            Click to play!
+        </a>
+
+        <div th:replace="~{fragments/footer :: footer}">
+            <footer th:replace="~{fragments/footer :: footerFragment}"></footer>
+        </div>
+    </div>
+</body>
+</html>

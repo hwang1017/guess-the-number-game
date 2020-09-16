@@ -1,0 +1,8 @@
+learn\util\ViewNames.class
+learn\conrtoller\GameController.class
+learn\util\AttributeNames.class
+learn\WebMain.class
+learn\service\GameServiceImpl.class
+learn\util\GameMappings.class
+learn\WebConfig.class
+learn\service\GameService.class
