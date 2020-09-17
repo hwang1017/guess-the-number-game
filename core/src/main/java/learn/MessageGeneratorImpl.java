@@ -33,9 +33,9 @@ public class MessageGeneratorImpl implements MessageGenerator{
         else if (game.isGameLost()) return "You lose...";
         else if (game.getRemainingGuess() == game.getGuessCount()) return "What is your first guess?";
         else {
-            String dir = "lower";
-            if (game.getGuess() < game.getNumber()) dir = "higher";
-            return dir + "! You have " + game.getRemainingGuess() + " guesses left";
+            String dir = "Lower";
+            if (game.getGuess() < game.getNumber()) dir = "Higher";
+            return dir + "!     You have " + game.getRemainingGuess() + " guesses left...";
         }
     }
 }

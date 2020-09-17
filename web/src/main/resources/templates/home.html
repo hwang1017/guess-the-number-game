@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}"></head>
+<html lang="en">
+
+<head id="headId">
+    <meta charset="UTF-8">
+    <title>Guess The Number Game</title>
+</head>
 
 <body>
     <div align="center">
         <h1>Welcome to the number game!</h1>
-        <a th:href="@{__${T(learn.util.GameMappings).PLAY}__}"
-           th:text="Play"
-            href="play.html">
-            Click to play!
-        </a>
+        <h3>
+            <a id="play" href="play.html">
+                Click to play!
+            </a>
+        </h3>
 
-        <div th:replace="~{fragments/footer :: footer}"></div>
+        <div id="footerId">Footer</div>
     </div>
 </body>
 </html>

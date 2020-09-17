@@ -1,0 +1,14 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+
+    <attr sel="#result-message"
+          th:text="${__${T(learn.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#restart"
+          th:href="@{__${T(learn.util.GameMappings).RESTART}__}"/>
+    <attr sel="#home"
+          th:href="@{__${T(learn.util.GameMappings).HOME}__}"/>
+
+</thlogic>

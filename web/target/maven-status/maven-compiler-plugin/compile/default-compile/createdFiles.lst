@@ -4,5 +4,7 @@ learn\util\AttributeNames.class
 learn\WebMain.class
 learn\service\GameServiceImpl.class
 learn\util\GameMappings.class
+learn\interceptor\RequestInterceptor.class
 learn\WebConfig.class
+learn\util\thymeleaf\DecoupledLogicSetup.class
 learn\service\GameService.class
